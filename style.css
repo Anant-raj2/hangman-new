@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+:root{
+  --background-color: #BBDEF0;
+  --text-color: #004643;
+  --button-background: #F06449;
+  --accent-color: #B3EFB2;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+  }
+
+#letterDiv{
+  display: flex;
+  justify-content: center;
+  
+
+
+}
+
+input{
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: none;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+
+#outputDiv{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-size: 5em;
+  color: var(--text-color);
+}
+
+#leftSide{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+#btnDiv{
+  display: flex;
+  justify-content: center;
+}
+
+
+.button {
+  align-items: center;
+  background-color: var(--button-background);
+  border: 2px solid EFA596;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: EFA596;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:after {
+  background-color: #EFA596;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button:hover:after {
+  transform: translate(0, 0);
+}
+
+.button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0 40px;
+  }
+}
+
+.contain{
+  display: flex;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+

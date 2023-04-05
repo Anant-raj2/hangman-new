@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="contain">
+      <div id="leftSide">
+        <img id="img" src="./hangman_images/hangman0.png" />
+      </div>
+
+      <div id = "rightSide">
+        <div id="letterDiv">
+          <input id="letter" maxlength="1" />
+        </div>
+        <div id="outputDiv">
+          <h1 id="blankArr"></h1>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div id="endDiv">
+      <h1 id="win"></h1>
+    </div>
+
+    <div id="guessed">
+      <h1 id="guesses"></h1>
+      <h1 id = "guessNote"></h1>
+    </div>
+
+    <div id="btnDiv">
+      <button id="btn" class="button">Play Again</button>
+      <button id="btn-word" class="button">Guess Word</button>
+    </div>
+
+      <div>
+        <h1 id = "high"></h1>
+      </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
